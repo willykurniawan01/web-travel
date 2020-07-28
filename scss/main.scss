@@ -49,6 +49,7 @@ body{
     border-radius: 0;
 }
 
+// header
 header{
     padding:180px 0px 165px ;
     background-image: url('../img/header.jpg');
@@ -74,3 +75,20 @@ header{
     }
 }
 
+// main
+.section-stats{
+    background-color: #fff;
+    padding: 15px;
+    margin-top: -60px;
+
+    .stats-detail{
+        text-align: center;
+        h2{
+            font-weight: 600;
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}

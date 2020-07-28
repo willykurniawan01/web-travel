@@ -1,4 +1,6 @@
 $blue:#071C4D;
+$assistant: 'Assistant', sans-serif;
+$play:'Playfair Display',serif;
 
 body{
     background-color: rgb(209, 192, 192);
@@ -26,7 +28,9 @@ body{
     }
 }
 
-// navabr
+// navbar
+
+
 .btn-login{
     background-color: #071C4D;
     color: #fff;
@@ -43,5 +47,30 @@ body{
     margin-right: -18px !important;
     height: 70px;
     border-radius: 0;
+}
+
+header{
+    padding:180px 0px 165px ;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    margin-top: -70px;
+    color: #fff;
+
+    h1{
+        font-family: $play;
+    }
+    p{
+        font-family: $assistant;
+    }
+
+    .btn-get-started{
+        background-color:#ee6700;
+        color: #fff;
+
+        &:hover{
+            color: #fff;
+            background-color: #ff8121;
+        }
+    }
 }
 
